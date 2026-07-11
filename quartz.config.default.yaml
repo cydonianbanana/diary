@@ -128,7 +128,7 @@ plugins:
   - source: github:quartz-community/explorer
     enabled: true
     layout:
-      position: left
+      position: right
       priority: 50
   - source: github:quartz-community/graph
     enabled: true
@@ -138,7 +138,7 @@ plugins:
   - source: github:quartz-community/search
     enabled: true
     layout:
-      position: left
+      position: right
       priority: 20
       group: toolbar
       groupOptions:
@@ -154,7 +154,7 @@ plugins:
       position: beforeBody
       priority: 10
   - source: github:quartz-community/content-meta
-    enabled: true
+    enabled: false
     layout:
       position: beforeBody
       priority: 20
@@ -166,18 +166,18 @@ plugins:
   - source: github:quartz-community/page-title
     enabled: true
     layout:
-      position: left
+      position: right
       priority: 10
   - source: github:quartz-community/darkmode
     enabled: true
     layout:
-      position: left
+      position: right
       priority: 30
       group: toolbar
   - source: github:quartz-community/reader-mode
     enabled: true
     layout:
-      position: left
+      position: right
       priority: 35
       group: toolbar
   - source: github:quartz-community/breadcrumbs
@@ -207,7 +207,7 @@ plugins:
     options: {}
     order: 25
     layout:
-      position: left
+      position: right
       priority: 25
       display: mobile-only
   - source: github:quartz-community/bases-page
