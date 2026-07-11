@@ -128,17 +128,17 @@ plugins:
   - source: github:quartz-community/explorer
     enabled: true
     layout:
-      position: right
+      position: afterBody
       priority: 50
   - source: github:quartz-community/graph
     enabled: true
     layout:
-      position: right
+      position: afterBody
       priority: 10
   - source: github:quartz-community/search
     enabled: true
     layout:
-      position: right
+      position: afterBody
       priority: 20
       group: toolbar
       groupOptions:
@@ -164,7 +164,7 @@ plugins:
       position: beforeBody
       priority: 30
   - source: github:quartz-community/page-title
-    enabled: true
+    enabled: false
     layout:
       position: right
       priority: 10
