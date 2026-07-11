@@ -21,25 +21,25 @@ configuration:
       code: IBM Plex Mono
     colors:
       lightMode:
-        light: "#faf8f8"
-        lightgray: "#e5e5e5"
-        gray: "#b8b8b8"
-        darkgray: "#4e4e4e"
-        dark: "#2b2b2b"
-        secondary: "#284b63"
-        tertiary: "#84a59d"
-        highlight: rgba(143, 159, 169, 0.15)
-        textHighlight: "#fff23688"
+        light: "#f8f8f8"
+        lightgray: "#f2f0e5"
+        gray: "#cecdc3"
+        darkgray: "#100f0f"
+        dark: "#100f0f"
+        secondary: "#8b7ec8"
+        tertiary: "#5e409d"
+        highlight: "#5e409d26"
+        textHighlight: "#5e409d26"
       darkMode:
-        light: "#161618"
-        lightgray: "#393639"
-        gray: "#646464"
-        darkgray: "#d4d4d4"
-        dark: "#ebebec"
-        secondary: "#7b97aa"
-        tertiary: "#84a59d"
-        highlight: rgba(143, 159, 169, 0.15)
-        textHighlight: "#b3aa0288"
+        light: "#100f0f"
+        lightgray: "#282726"
+        gray: "#9f9898"
+        darkgray: "#d6d3cb"
+        dark: "#cecdc3"
+        secondary: "#a68adf"
+        tertiary: "#846aff"
+        highlight: "#8b7ec826"
+        textHighlight: "#8b7ec826"
 plugins:
   - source: github:quartz-community/created-modified-date
     enabled: true
@@ -126,7 +126,7 @@ plugins:
   - source: github:quartz-community/tag-page
     enabled: true
   - source: github:quartz-community/explorer
-    enabled: true
+    enabled: false
     layout:
       position: afterBody
       priority: 50
@@ -175,7 +175,7 @@ plugins:
       priority: 30
       group: toolbar
   - source: github:quartz-community/reader-mode
-    enabled: true
+    enabled: false
     layout:
       position: right
       priority: 35
